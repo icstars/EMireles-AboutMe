@@ -1,0 +1,23 @@
+/* External CSS */
+
+/* element selector how we select within a Css file or style tag */
+body img {
+  height: 400px;
+  border-radius: 50%;
+}
+
+body {
+  background-color: blanchedalmond;
+}
+/*  Text shadow is as it says it gives a shadow. first px is for horizontel and second vertical for shadow */
+body h1 {
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 2px 2px blueviolet;
+}
+
+body p {
+  color: blueviolet;
+  padding: 10px;
+  padding-right: 10px;
+  margin: 25px;
+}

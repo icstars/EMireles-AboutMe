@@ -1,21 +1,50 @@
 <html>
+  <!--We are in visual studio code right now-->
+  <!--Below here is html standing for hyper text markup language used to create the structure of the website-->
   <head>
-    <title>Ernesto's Site</title>
+    <title>Ernesto's AboutMe</title>
+
+    <!-- A favicon is a small image displayed next to the page title in the browser tab -->
+    <link rel="icon" type="image" href="/images/OIP (1).jpg" />
+
+    <!--Internal Css is below where it's used in the html document where it affects all of the p with blueviolet color -->
+    <!--* means all is gonna be selected border covers all in a border with a solid,dotted and line -->
+    <style>
+      * {
+        /* border: 1px solid black; */
+      }
+    </style>
+    <!--Connector that adds the css file into the html document. -->
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <h1>Ernesto Mireles</h1>
-  <p>Hi my name is Ernesto</p>
-  <img
-    src="images/ERNESTOMIRELES.jpg"
-    alt="Not Found ErnestoMireles.PNG"
-    width="250"
-    height="300"
-  />
+
   <body>
-    <br />
-    <a
-      href="https://www.linkedin.com/in/ernesto-mireles-2aba66303/"
-      target="_blank"
-      >Follow me on LinkedIn</a
-    >
+    <!--Style attribute that adds styles to elements. Such as color, font and size-->
+    <!--In line 12 in line CSS know as Cascading Style Sheets. For styling the strcuture of the html page  -->
+    <!-- is center tag is used to align text to center-->
+    <center>
+      <h1 style="color: red">Ernesto Mireles</h1>
+      <p>Hi my name is Ernesto</p>
+
+      <!--img tag thats embed an image in a web page/ alt is the name it will show when the picture isnt available.-->
+      <img src="images/ERNESTOMIRELES.jpg" alt="Not Found ErnestoMireles.jpg" />
+
+      <!--Break tag is below, which in short breaks the line to start a whole new line to start, used for formatting, but not recommended-->
+      <br />
+      <!--The a attribute specifies where to open the linked document:-->
+      <!-- The attribute _blink tells the browser to open a new windows.-->
+      <!--Target attribute used to specify where a linked document will open-->
+      <a
+        href="https://www.linkedin.com/in/ernesto-mireles-2aba66303/"
+        target="_blank"
+        >Follow me on LinkedIn</a
+      >
+    </center>
   </body>
+
+  <!-- contact information element that contains -->
+  <footer>
+    <p></p>
+    <a href="emireles@icstars.org">emireles@icstars.org</a>
+  </footer>
 </html>
