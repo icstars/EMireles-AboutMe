@@ -35,6 +35,10 @@ nav {
 }
 
 /* Once you hover over the link it will turn red  */
+
+h1:hover {
+  color: aquamarine;
+}
 nav a:hover {
   color: rgb(239, 4, 4);
 }
