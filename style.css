@@ -24,12 +24,17 @@ body p {
 
 nav {
   text-decoration: none;
-  float: right;
+  float: left;
   margin: 0;
   padding: 8px;
-  background-color: aquamarine;
+  background-color: rgb(176, 80, 42);
 }
 
+/* Once you hover over the link it will turn into light blue */
 nav a:hover {
   color: rgb(39, 158, 179);
+}
+
+nav a:active {
+  color: green;
 }
