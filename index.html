@@ -1,8 +1,11 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <!--We are in visual studio code right now-->
   <!--Below here is html standing for hyper text markup language used to create the structure of the website-->
   <head>
     <title>Ernesto's AboutMe</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- A favicon is a small image displayed next to the page title in the browser tab -->
     <link rel="icon" type="image" href="/images/OIP (1).jpg" />
@@ -10,25 +13,19 @@
     <!--Internal Css is below where it's used in the html document where it affects all of the p with blueviolet color -->
     <!--* means all is gonna be selected border covers all in a border with a solid,dotted and line -->
 
-    <style>
-      * {
-        /* border: 1px solid black; */
-      }
-    </style>
     <!--Connector that adds the css file into the html document. -->
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
-    <center>
-      <nav>
-        <nav>
-          <a href="index.html" class="navbar">About Me</a>
-          <a href="pages/projects.html" class="navbar">Projects</a>
-          <a href="pages/contact.html" class="navbar">Contact Me</a>
-        </nav>
+    <div>
+      <nav class="navbar">
+        <a href="index.html" class="sidebar">About Me</a>
+        <a href="pages/projects.html" class="sidebar">Projects</a>
+        <a href="pages/contact.html" class="sidebar">Contact Me</a>
       </nav>
-
+    </div>
+    <center>
       <!--Style attribute that adds styles to elements. Such as color, font and size-->
       <!--In line 12 in line CSS know as Cascading Style Sheets. For styling the strcuture of the html page  -->
       <!-- is center tag is used to align text to center-->
@@ -48,11 +45,13 @@
       <!-- The attribute _blink tells the browser to open a new windows.-->
       <!--Target attribute used to specify where a linked document will open-->
       <p></p>
+
       <a
         href="https://www.linkedin.com/in/ernesto-mireles-2aba66303/"
         target="_blank"
         class="colors"
-        >Follow me on LinkedIn</a
+      >
+        Follow me on LinkedIn</a
       >
     </center>
   </body>

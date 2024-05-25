@@ -21,6 +21,7 @@
   animation: Colors 10s ease;
   animation-iteration-count: infinite;
   border: 1px solid black;
+  color: aliceblue;
 }
 
 /* body img {
@@ -44,16 +45,24 @@ body p {
   margin: 25px;
 }
 
-nav {
-  display: flex;
-  gap: 20px;
-  text-align: center;
-  text-decoration: none;
+.navbar {
   margin: 0;
-  padding: 8px;
-  background-color: rgb(108, 108, 108);
-  justify-content: center;
-  text-align: center;
+  padding: 0;
+  width: 100vw;
+  height: 30px;
+  /* overflow: hidden; */
+  background-color: black;
+}
+
+.navbar a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.sidebar {
+  float: left;
 }
 
 /* Once you hover over the link it will turn red  */
@@ -75,6 +84,26 @@ nav a:visited {
 body a:hover {
   color: rgb(255, 127, 127);
   transition: 0.5s ease;
+}
+
+@media screen and (min-width: 200px) and (max-width: 400px) {
+  nav a {
+    width: 100px;
+    /* top: 0; */
+    right: 480;
+    flex-direction: column;
+    color: purple;
+  }
+
+  .navbar {
+    right: 62%;
+    width: 150px;
+    height: 2000px;
+    position: absolute;
+    background-color: black;
+  }
+  div {
+  }
 }
 
 @keyframes slideIn {
