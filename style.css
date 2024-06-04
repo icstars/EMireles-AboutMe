@@ -14,7 +14,7 @@
 }
 
 .navbar {
-  animation: slideIn 5s;
+  animation: slideIn 2s;
 }
 
 .colors {
@@ -23,6 +23,9 @@
   border: 1px solid black;
   color: aliceblue;
 }
+/* For Contact Page */
+
+/*  */
 
 /* body img {
   height: 400px;
@@ -49,7 +52,7 @@ body p {
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 30px;
+  height: 40px;
   /* overflow: hidden; */
   background-color: black;
 }
@@ -103,6 +106,7 @@ body a:hover {
     background-color: black;
   }
   div {
+    width: 200px;
   }
 }
 
