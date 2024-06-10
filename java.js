@@ -7,6 +7,7 @@ left.addEventListener("click", () => {
   if (translate < 0) {
     translate = translate + 400;
     courousel.style.transform = "translateX(" + translate + "px)";
+    // courousel.style.transform = `translateX${translate}px`;
   }
 });
 
